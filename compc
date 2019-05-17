@@ -1,0 +1,11 @@
+#!/bin/bash
+gcc -o $1 $1.c
+RESULT=$?
+if [ $RESULT -eq 0 ]; then
+echo -e 'START:\n'
+./$1
+echo -e '\n'
+echo -e 'END'
+else
+echo -e 'COMPILATION ERROR!'
+fi

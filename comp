@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#filename $0
+
+gcc -o $1 $1.c
+echo -e COMPILING FINISHED: OUTPUT:'\n'
+
+./$1
+echo -e '\n'

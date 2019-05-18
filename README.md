@@ -6,4 +6,4 @@ You should add this to your /usr/bin folder then you should be able to call comp
 
 example: compc test
 
-You can easily compile C++ files by changing the 2 line to: g++ -o $1 $1.c
+You can easily compile C++ files by changing the 2 line to: g++ -o $1 $1.cpp
